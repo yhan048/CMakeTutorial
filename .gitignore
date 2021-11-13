@@ -46,4 +46,5 @@ _deps
 
 #build folders
 out/build/
+external/glfw/
 [Bb][Uu][Ii][Ll][Dd]/
