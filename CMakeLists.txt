@@ -10,7 +10,7 @@ option(USE_ADDER "A simple library for add 2 floats" ON)
 if (USE_ADDER)
     add_subdirectory(Adder)
 
-    list(APPEND EXTRA_LINK_DIRS Adder)
+    list(APPEND EXTRA_LINK_DIRS "Adder")
     list(APPEND EXTRA_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/Adder")
     list(APPEND EXTRA_LINK_LIBS adder)
 

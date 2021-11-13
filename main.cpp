@@ -25,7 +25,7 @@ int main(int argc, char* argv[]) {
         exit( EXIT_FAILURE );
     }
 
-    window = glfwCreateWindow( 300, 300, "Gears", NULL, NULL );
+    window = glfwCreateWindow( 1000, 1000, "example winbdow", NULL, NULL );
     if (!window)
     {
         fprintf( stderr, "Failed to open GLFW window\n" );
