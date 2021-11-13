@@ -1,14 +1,19 @@
 #include <iostream>
-
-// float add(float a, float b);
-// #include "Adder/adder.h"
-#include "adder.h"
+// #include "adder.h"
 #include <GLFW/glfw3.h>
 #include <CMLConfig.h>
+#ifdef USE_ADDER
+    #include "adder.h"
+#endif
+
 
 int main(int argc, char* argv[]) {
     std::cout << "Hey YP\n";
-    std::cout << add(50, 50.0) << std::endl;
+#ifdef USE_ADDER
+    std::cout << "Using adder lib " << add(72.1f, 50.8f) << std::endl;
+#else
+    std::cout << "Not using adder lib "  << 72.1f + 50.8f << std::endl;
+#endif
     std::cout << argv[0] << " Version " << CML_VERSION_MAJOR << "." << CML_VERSION_MINOR << std::endl;
 
 

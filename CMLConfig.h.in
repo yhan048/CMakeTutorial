@@ -1,2 +1,7 @@
 #define CML_VERSION_MAJOR @CML_VERSION_MAJOR@
 #define CML_VERSION_MINOR @CML_VERSION_MINOR@
+
+#cmakedefine USE_ADDER
+// #ifdef USE_ADDER
+//     #include <Adder.h>
+// #endif
