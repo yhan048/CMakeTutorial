@@ -53,10 +53,10 @@ RM = /opt/cmake-3.21.1-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir
+CMAKE_SOURCE_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build
+CMAKE_BINARY_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include external/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include external/glfw/CMakeFiles/uninstall.dir/progress.make
 
 external/glfw/CMakeFiles/uninstall:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw && /opt/cmake-3.21.1-linux-x86_64/bin/cmake -P /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw/cmake_uninstall.cmake
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw && /opt/cmake-3.21.1-linux-x86_64/bin/cmake -P /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw/cmake_uninstall.cmake
 
 uninstall: external/glfw/CMakeFiles/uninstall
 uninstall: external/glfw/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ external/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/build
 
 external/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/clean
 
 external/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yphan/Desktop/GitFolder/CMakeTutorial /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/depend
 

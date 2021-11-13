@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw/install_manifest.txt" files)
+file(READ "/home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

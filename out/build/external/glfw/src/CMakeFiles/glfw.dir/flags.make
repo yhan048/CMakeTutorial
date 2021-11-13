@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
 
-C_INCLUDES = -I/home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/include -I/home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src -I/home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw/src
+C_INCLUDES = -I/home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/include -I/home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src -I/home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw/src
 
 C_FLAGS = -fPIC -Wall -std=c99
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build -I/home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/Adder -I/home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/include
+CXX_INCLUDES = -I/home/yphan/Desktop/GitFolder/CMakeTutorial/out/build -I/home/yphan/Desktop/GitFolder/CMakeTutorial/Adder -I/home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/include
 
 CXX_FLAGS = 
 

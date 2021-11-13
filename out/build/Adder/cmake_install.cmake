@@ -1,4 +1,4 @@
-# Install script for directory: /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/Adder
+# Install script for directory: /home/yphan/Desktop/GitFolder/CMakeTutorial/Adder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

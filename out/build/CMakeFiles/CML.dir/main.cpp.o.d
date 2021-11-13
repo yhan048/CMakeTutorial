@@ -1,5 +1,5 @@
 CMakeFiles/CML.dir/main.cpp.o: \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/main.cpp \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -136,8 +136,8 @@ CMakeFiles/CML.dir/main.cpp.o: \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/Adder/adder.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/include/GLFW/glfw3.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/Adder/adder.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/include/GLFW/glfw3.h \
  /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/CMLConfig.h
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/CMLConfig.h

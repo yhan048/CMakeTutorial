@@ -1,8 +1,8 @@
 external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/xkb_unicode.c \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/xkb_unicode.c \
  /usr/include/stdc-predef.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/internal.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/../include/GLFW/glfw3.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/internal.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/../include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -18,9 +18,9 @@ external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/platform.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/null_platform.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/x11_platform.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/platform.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/null_platform.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/x11_platform.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -89,9 +89,9 @@ external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: \
  /usr/include/X11/extensions/xfixeswire.h \
  /usr/include/X11/extensions/shape.h \
  /usr/include/X11/extensions/shapeconst.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/xkb_unicode.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/null_joystick.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/linux_joystick.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/xkb_unicode.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/null_joystick.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/linux_joystick.h \
  /usr/include/linux/input.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
@@ -111,7 +111,7 @@ external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: \
  /usr/include/asm-generic/posix_types.h \
  /usr/include/linux/input-event-codes.h /usr/include/linux/limits.h \
  /usr/include/regex.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/posix_thread.h \
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/posix_thread.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
@@ -122,4 +122,4 @@ external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src/posix_time.h
+ /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src/posix_time.h

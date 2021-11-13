@@ -6,7 +6,8 @@ configure_file(CMLConfig.h.in CMLConfig.h)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_BINARY_DIR})
+#include the binary directory we build into, since we want to include the CMLConfig.h
+target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_BINARY_DIR}) 
 
 add_subdirectory(Adder)
 
@@ -30,6 +31,9 @@ endif()
 if(NOT EXISTS "${PROJECT_SOURCE_DIR}/external/glfw/CMakeLists.txt")
     message(FATAL_ERROR "The glfw submodules was not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules")
 endif()
+
+
+
 
 
 add_subdirectory(external/glfw)

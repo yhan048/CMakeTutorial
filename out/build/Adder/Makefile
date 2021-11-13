@@ -57,10 +57,10 @@ RM = /opt/cmake-3.21.1-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir
+CMAKE_SOURCE_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build
+CMAKE_BINARY_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/CMakeFiles /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/Adder//CMakeFiles/progress.marks
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/CMakeFiles 0
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/CMakeFiles /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/Adder//CMakeFiles/progress.marks
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/clean
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/preinstall
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/preinstall
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Adder/CMakeFiles/adder.dir/rule:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/CMakeFiles/adder.dir/rule
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/CMakeFiles/adder.dir/rule
 .PHONY : Adder/CMakeFiles/adder.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ adder: Adder/CMakeFiles/adder.dir/rule
 
 # fast build rule for target.
 adder/fast:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/build
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/build
 .PHONY : adder/fast
 
 adder.o: adder.cpp.o
@@ -180,7 +180,7 @@ adder.o: adder.cpp.o
 
 # target to build an object file
 adder.cpp.o:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/adder.cpp.o
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/adder.cpp.o
 .PHONY : adder.cpp.o
 
 adder.i: adder.cpp.i
@@ -188,7 +188,7 @@ adder.i: adder.cpp.i
 
 # target to preprocess a source file
 adder.cpp.i:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/adder.cpp.i
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/adder.cpp.i
 .PHONY : adder.cpp.i
 
 adder.s: adder.cpp.s
@@ -196,7 +196,7 @@ adder.s: adder.cpp.s
 
 # target to generate assembly for a file
 adder.cpp.s:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/adder.cpp.s
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/adder.cpp.s
 .PHONY : adder.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

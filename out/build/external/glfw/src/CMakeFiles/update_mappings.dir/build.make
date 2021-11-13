@@ -53,10 +53,10 @@ RM = /opt/cmake-3.21.1-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir
+CMAKE_SOURCE_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build
+CMAKE_BINARY_DIR = /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include external/glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include external/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 external/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src && /opt/cmake-3.21.1-linux-x86_64/bin/cmake -P /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src && /opt/cmake-3.21.1-linux-x86_64/bin/cmake -P /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: external/glfw/src/CMakeFiles/update_mappings
 update_mappings: external/glfw/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ external/glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : external/glfw/src/CMakeFiles/update_mappings.dir/build
 
 external/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : external/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 external/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/external/glfw/src /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw/src /home/yphan/Desktop/GitFolder/CMakeTutorial/working_dir/out/build/external/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yphan/Desktop/GitFolder/CMakeTutorial /home/yphan/Desktop/GitFolder/CMakeTutorial/external/glfw/src /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw/src /home/yphan/Desktop/GitFolder/CMakeTutorial/out/build/external/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/glfw/src/CMakeFiles/update_mappings.dir/depend
 
