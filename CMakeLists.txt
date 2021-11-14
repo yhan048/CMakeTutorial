@@ -75,9 +75,23 @@ target_link_libraries(${PROJECT_NAME}
 install(TARGETS ${PROJECT_NAME} DESTINATION bin)
 install(FILES "${PROJECT_BINARY_DIR}/CMLConfig.h" DESTINATION include)
 
-
+include(InstallRequiredSystemLibraries)
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
+set(CPACK_PACKAGE_VERSION_MAJOR "${Tutorial_VERSION_MAJOR}")
+set(CPACK_PACKAGE_VERSION_MINOR "${Tutorial_VERSION_MINOR}")
+include(CPack)
 
 
 # Debug Printings
+message("---------------debugging mode--------------")
+message("                                           ")
+message("                                           ")
 message(" Project Name: " ${PROJECT_NAME})
-message("with lib")
+message(" PROJECT_SOURCE_DIR Name: " ${PROJECT_SOURCE_DIR})
+message(" PROJECT_BINARY_DIR Name: " ${PROJECT_BINARY_DIR})
+message(" GIT_EXECUTABLE Name: " ${GIT_EXECUTABLE})
+message(" CMAKE_CURRENT_SOURCE_DIR Name: " ${CMAKE_CURRENT_SOURCE_DIR})
+# message(" EXTRA_LINK_DIRS Name: " ${EXTRA_LINK_DIRS})
+# message(" EXTRA_INCLUDE_DIR Name: " ${EXTRA_INCLUDE_DIR})
+# message(" EXTRA_LINK_LIBS Name: " ${EXTRA_LINK_LIBS})
+# message("with lib")
