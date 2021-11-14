@@ -2,6 +2,41 @@ cmake_minimum_required(VERSION 3.20)
 
 project(CML VERSION 1.1)
 
+#FIND LIBRARY
+find_library(myglewlib glew NAME glew2 GLEW GLEW2 DOC "glew libs" REQUIRED)
+if (${myglewlib} STREQUAL myglewlib-NOTFOUND)
+    message(FATAL_ERROR "no glew lib")
+else()
+    message(STATUS "find glew as ${myglewlib}")
+endif()
+find_library(myglulib glu NAME GLU DOC "glu libs" REQUIRED)
+find_library(mygllib gl NAME GL DOC "gl libs" REQUIRED)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 add_executable(${PROJECT_NAME} main.cpp)
 
 #adder use logic
@@ -91,7 +126,4 @@ message(" PROJECT_SOURCE_DIR Name: " ${PROJECT_SOURCE_DIR})
 message(" PROJECT_BINARY_DIR Name: " ${PROJECT_BINARY_DIR})
 message(" GIT_EXECUTABLE Name: " ${GIT_EXECUTABLE})
 message(" CMAKE_CURRENT_SOURCE_DIR Name: " ${CMAKE_CURRENT_SOURCE_DIR})
-# message(" EXTRA_LINK_DIRS Name: " ${EXTRA_LINK_DIRS})
-# message(" EXTRA_INCLUDE_DIR Name: " ${EXTRA_INCLUDE_DIR})
-# message(" EXTRA_LINK_LIBS Name: " ${EXTRA_LINK_LIBS})
-# message("with lib")
+
